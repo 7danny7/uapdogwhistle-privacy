@@ -46,3 +46,8 @@ We may update this Privacy Policy from time to time. The “Last updated” date
 8. Contact Us
 If you have questions about this Privacy Policy, please contact us at:
 catmansoftwarestudio@gmail.com
+
+
+## Disclaimer
+UAP Dog Whistle is a novelty application for entertainment purposes only. There is no warranty or guarantee—express or implied—that the app will summon, attract, or interact with any UAP, extraterrestrial entity, or other phenomena. By using this app, you acknowledge and agree that CatmanSoftwareStudios (and its officers, employees, affiliates, agents, or licensors) shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from or related to your use of the app, including but not limited to personal injury, property damage, loss of data, or disappearance of household pets.
+
