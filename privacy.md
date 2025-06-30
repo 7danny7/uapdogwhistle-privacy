@@ -1,53 +1,57 @@
 Privacy Policy for UAP Dog Whistle
-Last updated: June 10, 2025
+**Last updated: June 30, 2025**
 
-Introduction
-UAP Dog Whistle (“we”, “us” or “our”) respects your privacy. This Privacy Policy explains what (if any) information the UAP Dog Whistle mobile application (“the App”) collects, how we use it, and your rights.
+### Introduction
 
-1. Information We Collect
-No Personal Data Collected.
+UAP Dog Whistle ("we", "us" or "our") respects your privacy. This Privacy Policy clearly explains what (if any) information the UAP Dog Whistle mobile application ("the App") collects, how we handle it, and your rights regarding this information.
 
-The App does not collect, transmit, or store any personal information (name, email, location, device identifiers, etc.).
+### Information We Collect
 
-We do not use any analytics or crash-reporting SDKs.
+**No Personal Data Collected**
+The App does not collect, transmit, or store any personal information, including but not limited to your name, email address, physical location, device identifiers, or any other personally identifiable information.
 
-Local-Only Settings Storage.
+We explicitly do **not** utilize analytics, tracking, advertising, or crash-reporting services.
 
-We store only two user preferences locally on your device via Jetpack DataStore:
+### Local-Only Settings Storage
 
-Theme choice (dark/light/aurora/etc.)
+The App stores two user-selected preferences exclusively on your device, utilizing Android's encrypted Jetpack DataStore:
 
-Background image URI (if you pick a custom image via the Android Photo Picker)
+* **Theme Choice:** dark, light, aurora, galaxy, night sky, etc.
+* **Background Image URI:** when you select a custom image using the Android Photo Picker.
 
-These settings remain on your device and are never uploaded or shared.
+These settings remain securely stored locally and are never uploaded, transmitted, or shared with any third parties.
 
-2. Permissions
-FOREGROUND_SERVICE: Required to run the audio “whistle” in the background when you’ve pressed “Invite Them”.
+### Permissions
 
-Photo Picker: When you choose a custom background, the standard system picker may grant temporary read access to that image. We do not retain or transmit that image to any server.
+* **FOREGROUND\_SERVICE:** This permission is required solely to enable continuous audio playback (the "whistle") when your device screen is turned off or when the app is in the background. No data is transmitted or collected through this service.
+* **Photo Picker (READ\_MEDIA\_IMAGES):** When selecting a custom background image, the Android system grants temporary, read-only access to the selected image. The selected image remains solely on your device and is never stored permanently, uploaded, or transmitted elsewhere by the App.
 
-3. Usage of Data
-Because we collect nothing beyond local settings, there is no “usage” to share, analyze, or monetize. Everything runs entirely on-device.
+### Data Usage
 
-4. Third-Party Libraries
-We use only standard AndroidX and Jetpack Compose libraries (and Coil for image loading), none of which collect personal data on our behalf.
+Since the App collects no data beyond locally stored preferences, there is no data available for sharing, analyzing, monetizing, or third-party access. All data remains exclusively local and device-bound.
 
-5. Data Security
-Your local settings are stored in an encrypted preferences file managed by Android’s DataStore.
+### Third-Party Libraries and Licenses
 
-We do not transmit any data over the network, so there is no risk of server-side breach.
+We utilize standard AndroidX and Jetpack Compose libraries, as well as the Coil library for image loading. These libraries do not collect, process, or transmit personal data on our behalf. The libraries utilized are open-source, distributed under the Apache License 2.0. Licensing notices are packaged with the app as required.
 
-6. Children’s Privacy
-Our App is not directed at children under 13. Because we collect no personal information, we do not knowingly process data of children.
+### Data Security
 
-7. Changes to This Policy
-We may update this Privacy Policy from time to time. The “Last updated” date at the top will reflect changes.
+Your settings and preferences are stored securely using Android’s Jetpack DataStore, which encrypts your data at rest. Because the App does not transmit any data over networks, there is no risk associated with server-side breaches or data leakage.
 
-8. Contact Us
-If you have questions about this Privacy Policy, please contact us at:
-catmansoftwarestudio@gmail.com
+### Children's Privacy
 
+The App is not designed for, directed toward, nor intended to attract children under the age of 13. Given our strict policy of no data collection, we do not knowingly process or collect personal information from children under 13.
 
-## Disclaimer
-UAP Dog Whistle is a novelty application for entertainment purposes only. There is no warranty or guarantee—express or implied—that the app will summon, attract, or interact with any UAP, extraterrestrial entity, or other phenomena. By using this app, you acknowledge and agree that CatmanSoftwareStudios (and its officers, employees, affiliates, agents, or licensors) shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from or related to your use of the app, including but not limited to personal injury, property damage, loss of data, or disappearance of household pets.
+### Changes to This Policy
 
+We may periodically update this Privacy Policy. Any changes will be clearly indicated by updating the "Last updated" date at the top of this page.
+
+### Contact Us
+
+If you have questions about this Privacy Policy or any aspect of data privacy related to the App, please contact us at:
+
+* **Email:** [catmansoftwarestudio@gmail.com](mailto:catmansoftwarestudio@gmail.com)
+
+### Disclaimer
+
+UAP Dog Whistle is intended purely as a novelty entertainment application. There is no warranty or guarantee—express or implied—that the App will summon, attract, or enable interaction with any UAP, extraterrestrial entities, or related phenomena. By using the App, you explicitly acknowledge and agree that CatmanSoftwareStudios (including its officers, employees, affiliates, agents, or licensors) shall not be liable for any direct, indirect, incidental, consequential, special, or punitive damages arising from or related to your use of the App. Such damages include, without limitation, personal injury, emotional distress, property damage, loss of data, device malfunctions, or the unexplained disappearance or behavior of household pets or animals.
