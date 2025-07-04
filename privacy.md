@@ -1,5 +1,5 @@
 Privacy Policy for UAP Dog Whistle
-**Last updated: June 30, 2025**
+**Last updated: July 4th, 2025**
 
 ### Introduction
 
@@ -14,7 +14,7 @@ We explicitly do **not** utilize analytics, tracking, advertising, or crash-repo
 
 ### Local-Only Settings Storage
 
-The App stores two user-selected preferences exclusively on your device, utilizing Android's encrypted Jetpack DataStore:
+The App stores two user-selected preferences exclusively on your device, using Android Jetpack DataStore (stored locally in app-private storage; never transmitted).
 
 * **Theme Choice:** dark, light, aurora, galaxy, night sky, etc.
 * **Background Image URI:** when you select a custom image using the Android Photo Picker.
@@ -23,7 +23,6 @@ These settings remain securely stored locally and are never uploaded, transmitte
 
 ### Permissions
 
-* **FOREGROUND\_SERVICE:** This permission is required solely to enable continuous audio playback (the "whistle") when your device screen is turned off or when the app is in the background. No data is transmitted or collected through this service.
 * **Photo Picker (READ\_MEDIA\_IMAGES):** When selecting a custom background image, the Android system grants temporary, read-only access to the selected image. The selected image remains solely on your device and is never stored permanently, uploaded, or transmitted elsewhere by the App.
 
 ### Data Usage
@@ -36,7 +35,7 @@ We utilize standard AndroidX and Jetpack Compose libraries, as well as the Coil 
 
 ### Data Security
 
-Your settings and preferences are stored securely using Android’s Jetpack DataStore, which encrypts your data at rest. Because the App does not transmit any data over networks, there is no risk associated with server-side breaches or data leakage.
+Your settings and preferences are stored locally in app-private storage using Android’s Jetpack DataStore. Because the App does not transmit any data over networks, there is no risk associated with server-side breaches or data leakage.
 
 ### Children's Privacy
 
@@ -55,3 +54,5 @@ If you have questions about this Privacy Policy or any aspect of data privacy re
 ### Disclaimer
 
 UAP Dog Whistle is intended purely as a novelty entertainment application. There is no warranty or guarantee—express or implied—that the App will summon, attract, or enable interaction with any UAP, extraterrestrial entities, or related phenomena. By using the App, you explicitly acknowledge and agree that CatmanSoftwareStudios (including its officers, employees, affiliates, agents, or licensors) shall not be liable for any direct, indirect, incidental, consequential, special, or punitive damages arising from or related to your use of the App. Such damages include, without limitation, personal injury, emotional distress, property damage, loss of data, device malfunctions, or the unexplained disappearance or behavior of household pets or animals.
+⚠️ High-frequency audio at loud volumes may be uncomfortable for people or pets. Adjust volume responsibly.
+
